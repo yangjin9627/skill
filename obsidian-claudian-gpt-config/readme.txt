@@ -1,0 +1,9 @@
+由于不断有做新知识库的需求，而每次给新知识库配置GPT模型到claudian都是一个强需求。
+
+再一个，claudian不断迭代出新版本，每次都需要codex帮我把GPT模型配置给claudian，迭代的新版本也至少需要修改配置文件，每次配置的过程中都会出现这样那样的问题。
+
+最常见的问题就是代码 JSON/BOM 格式的问题，BOM格式的隐藏代码总是容易被codex忽略，codex一再犯这种错误而不容易检查出来。
+
+所以，再次让codex配置GPT模型给claudian之后，让它给我手搓了一个skill：obsidian-claudian-gpt-config.md。
+
+经过本人多次验证测试，该skill能非常方便地配置GPT模型给claudian，暂时还没有出错过，测试的几次都是一次性配置正确。

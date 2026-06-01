@@ -7,3 +7,7 @@
 所以，再次让codex配置GPT模型给claudian之后，让它给我手搓了一个skill：obsidian-claudian-gpt-config.md。
 
 经过本人多次验证测试，该skill能非常方便地配置GPT模型给claudian，暂时还没有出错过，测试的几次都是一次性配置正确。
+
+注意：
+在终端运行codex中，需要先安装 obsidian-claudian-gpt-config.md，然后再使用该skill。使用时，以如下要求描述举例：
+我想请您用obsidian-claudian-gpt-config.md帮我配置一个知识库，知识库的路径是：C:\XXXXXXX\XXXXXXX 。
